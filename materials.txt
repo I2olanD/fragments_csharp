@@ -12,7 +12,6 @@ Material #1:
   A: 255
   RenderedFaces: ONE
   Stroke: DEFAULT
-  Access Method: Standard
 
 Material #2:
   R: 241
@@ -21,7 +20,6 @@ Material #2:
   A: 255
   RenderedFaces: ONE
   Stroke: DEFAULT
-  Access Method: Standard
 
 Material #3:
   R: 109
@@ -30,7 +28,6 @@ Material #3:
   A: 255
   RenderedFaces: ONE
   Stroke: DEFAULT
-  Access Method: Standard
 
 Material #4:
   R: 245
@@ -39,7 +36,6 @@ Material #4:
   A: 255
   RenderedFaces: ONE
   Stroke: DEFAULT
-  Access Method: Standard
 
 Material #5:
   R: 199
@@ -48,7 +44,6 @@ Material #5:
   A: 255
   RenderedFaces: ONE
   Stroke: DEFAULT
-  Access Method: Standard
 
 Material #6:
   R: 148
@@ -57,7 +52,6 @@ Material #6:
   A: 30
   RenderedFaces: ONE
   Stroke: DEFAULT
-  Access Method: Standard
 
 Material #7:
   R: 139
@@ -66,7 +60,6 @@ Material #7:
   A: 255
   RenderedFaces: ONE
   Stroke: DEFAULT
-  Access Method: Standard
 
 Material #8:
   R: 223
@@ -75,7 +68,6 @@ Material #8:
   A: 255
   RenderedFaces: ONE
   Stroke: DEFAULT
-  Access Method: Standard
 
 Material #9:
   R: 255
@@ -84,7 +76,4 @@ Material #9:
   A: 255
   RenderedFaces: ONE
   Stroke: DEFAULT
-  Access Method: Standard
-
-Standard: 9 materials
 

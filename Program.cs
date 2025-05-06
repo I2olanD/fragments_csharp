@@ -29,39 +29,28 @@ static void ReadMeshes(Model model) {
     sb.AppendLine($"Total Materials: {materialsCount}");
     sb.AppendLine();
     
-    var accessMethods = new Dictionary<string, int>();
-    
     sb.AppendLine("MATERIALS LIST");
     sb.AppendLine("==============");
     
-    for (int i = 0; i < materialsCount; i++)
+    for (var i = 0; i < materialsCount; i++)
     {
-        var materialInfo = MaterialDirectAccessor.GetMaterial(model, i);
-        
-        sb.AppendLine($"Material #{i + 1}:");
-        sb.AppendLine($"  R: {materialInfo.R}");
-        sb.AppendLine($"  G: {materialInfo.G}");
-        sb.AppendLine($"  B: {materialInfo.B}");
-        sb.AppendLine($"  A: {materialInfo.A}");
-        sb.AppendLine($"  RenderedFaces: {materialInfo.RenderedFaces}");
-        sb.AppendLine($"  Stroke: {materialInfo.Stroke}");
-        sb.AppendLine($"  Access Method: {materialInfo.AccessMethod}");
-        
-        if (!accessMethods.TryGetValue(materialInfo.AccessMethod, out var count))
+        var material = model.Meshes.Value.Materials(i);
+
+        if (material == null)
         {
-            count = 0;
+            return;
         }
         
-        accessMethods[materialInfo.AccessMethod] = count + 1;
+        sb.AppendLine($"Material #{i + 1}:");
+        sb.AppendLine($"  R: {material.Value.R}");
+        sb.AppendLine($"  G: {material.Value.G}");
+        sb.AppendLine($"  B: {material.Value.B}");
+        sb.AppendLine($"  A: {material.Value.A}");
+        sb.AppendLine($"  RenderedFaces: {material.Value.RenderedFaces}");
+        sb.AppendLine($"  Stroke: {material.Value.Stroke}");
         
         sb.AppendLine();
     }
-    
-    foreach (var method in accessMethods)
-    {
-        sb.AppendLine($"{method.Key}: {method.Value} materials");
-    }
-    sb.AppendLine();
     
     try
     {
@@ -72,5 +61,4 @@ static void ReadMeshes(Model model) {
     {
         Console.WriteLine($"Error writing to file: {ex.Message}");
     }
-
 }
