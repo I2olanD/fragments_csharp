@@ -1,0 +1,90 @@
+Material Information Export
+==========================
+
+Total Materials: 9
+
+MATERIALS LIST
+==============
+Material #1:
+  R: 52
+  G: 141
+  B: 41
+  A: 255
+  RenderedFaces: ONE
+  Stroke: DEFAULT
+  Access Method: Standard
+
+Material #2:
+  R: 241
+  G: 14
+  B: 6
+  A: 255
+  RenderedFaces: ONE
+  Stroke: DEFAULT
+  Access Method: Standard
+
+Material #3:
+  R: 109
+  G: 38
+  B: 38
+  A: 255
+  RenderedFaces: ONE
+  Stroke: DEFAULT
+  Access Method: Standard
+
+Material #4:
+  R: 245
+  G: 192
+  B: 115
+  A: 255
+  RenderedFaces: ONE
+  Stroke: DEFAULT
+  Access Method: Standard
+
+Material #5:
+  R: 199
+  G: 70
+  B: 45
+  A: 255
+  RenderedFaces: ONE
+  Stroke: DEFAULT
+  Access Method: Standard
+
+Material #6:
+  R: 148
+  G: 192
+  B: 172
+  A: 30
+  RenderedFaces: ONE
+  Stroke: DEFAULT
+  Access Method: Standard
+
+Material #7:
+  R: 139
+  G: 141
+  B: 126
+  A: 255
+  RenderedFaces: ONE
+  Stroke: DEFAULT
+  Access Method: Standard
+
+Material #8:
+  R: 223
+  G: 101
+  B: 27
+  A: 255
+  RenderedFaces: ONE
+  Stroke: DEFAULT
+  Access Method: Standard
+
+Material #9:
+  R: 255
+  G: 255
+  B: 255
+  A: 255
+  RenderedFaces: ONE
+  Stroke: DEFAULT
+  Access Method: Standard
+
+Standard: 9 materials
+
